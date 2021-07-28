@@ -10,7 +10,7 @@ import pytest
 import random
 
 from tests.test_api_endpoints.data_models import record_model
-from exceptions.exceptions import CastorException
+from castoredc_api_client.exceptions import CastorException
 
 
 def create_record(fake):

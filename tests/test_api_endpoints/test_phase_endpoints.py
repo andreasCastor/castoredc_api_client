@@ -9,7 +9,7 @@ https://orcid.org/0000-0003-3052-596X
 import pytest
 
 from tests.test_api_endpoints.data_models import phase_model
-from exceptions.exceptions import CastorException
+from castoredc_api_client.exceptions import CastorException
 
 
 class TestPhase:

@@ -12,7 +12,7 @@ import math
 
 import requests
 
-from exceptions.exceptions import castor_exception_handler, CastorException
+from castoredc_api_client.exceptions import castor_exception_handler, CastorException
 
 
 class CastorClient:
